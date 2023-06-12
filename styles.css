@@ -1,0 +1,98 @@
+/*
+  Medha Gupta
+  May 4, 2023
+  CSE 154 AB: Allan Tran, Elizabeth Xiong
+
+  This is the styles.css stylesheet that styles the index.html page.
+  It adds formatting to the buttons, meme image, and more.
+  It also gives the webpage a green theme.
+*/
+
+body {
+  background-color: #c0dfd3;
+}
+
+body, blockquote {
+  margin: 0px;
+}
+
+header {
+  background-color: #056608;
+  overflow: hidden;
+}
+
+main, section {
+  display: flex;
+}
+
+main {
+  margin: 20px;
+  justify-content: space-between;
+}
+
+section {
+  flex-direction: column;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  color: #fff;
+}
+
+h1, h2 {
+  font-size: 35px;
+  text-transform: lowercase;
+}
+
+h2 {
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
+h1, blockquote {
+  padding-left: 20px;
+}
+
+blockquote {
+  background-color: gray;
+  opacity: 50%;
+}
+
+p, h2, h3, button {
+  font-family: 'Sigmar', cursive;
+}
+
+h2, h3, input, button {
+  color: #3a4c40;
+}
+
+img {
+  margin-top: 10px;
+  height: 600px;
+}
+
+img, input {
+  width: 650px;
+}
+
+input, button {
+  border: 2px solid green;
+  border-radius: 4px;
+}
+
+input {
+  margin-bottom: 10px;
+  height: 60px;
+  font-size: 20px;
+  resize: none;
+  font-family: 'Raleway', sans-serif;
+}
+
+button {
+  margin-top: 5px;
+  width: 250px;
+}
+
+button:hover {
+  background-color: #90EE90;
+}
