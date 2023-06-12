@@ -1,8 +1,4 @@
 /*
- * Medha Gupta
- * May 4, 2023
- * CSE 154 AB: Allan Tran, Elizabeth Xiong
- *
  * This is the index.js page that adds interactivity to the meme generator in index.html. It allows
  * users to generate random meme images and add caption text to them.
  */
